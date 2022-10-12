@@ -1,5 +1,6 @@
 # Profile for PowerShell
-# Allows Oh-My-ZSH-style command autocompletion and autosuggestion, and accessing Visual Studio CLI tools.
+# Allows Oh-My-ZSH-style command autocompletion and autosuggestion, and accessing Visual Studio CLI
+# tools without using "Developer Powershell for VS 2022". This also sets up Oh-My-Posh.
 
 # Shows navigable menu of all options when hitting Tab
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
