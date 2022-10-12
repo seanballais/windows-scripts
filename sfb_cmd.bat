@@ -2,6 +2,12 @@
 @REM Batch file that is run first by the Command Prompt profile in Windows Terminal.
 @REM Allows the use of Visual Studio CLI tools in the Command Prompt without opening
 @REM "Developer Command Prompt for VS 2022". Acts like a PowerShell profile as well.
+@REM
+@REM Change the executable setting in the Windows Terminal profile for Command Prompt
+@REM to:
+@REM
+@REM cmd.exe /k "\path\to\sfb_cmd.bat"
+@REM
 
 @REM If we just set the CMD profile in Windows Terminal to run the batch file
 @REM below, we won't get the standard CMD banner. So, we need to have this
