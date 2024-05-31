@@ -56,6 +56,3 @@ $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
-
-# Set up rbenv.
-& "$Env:RBENV_ROOT\rbenv\bin\rbenv.ps1" init
